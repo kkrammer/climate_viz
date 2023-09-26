@@ -1,0 +1,13 @@
+---
+title: "How To Graph"
+author: "Kramer"
+date: "2023-09-26"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r}
+x=rnorm(100)
+hist(x,xlab = "Z",ylab = "Freq", main = "100 random numbers", col = "red")
+```
